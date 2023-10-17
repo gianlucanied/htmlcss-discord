@@ -223,6 +223,7 @@ header{
     display: flex;
 }
 
+
 .logo{
     width: 70px;
     height: 25px;
@@ -237,4 +238,3 @@ header{
     height: 60%;
     border: none;
 }
-
