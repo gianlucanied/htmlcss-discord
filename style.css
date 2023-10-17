@@ -4,20 +4,36 @@
 
 header{
     display: flex;
+    background-color: rgb(58, 59, 255);
 }
 
 .container-header {
     display: flex;
     flex-flow: row wrap;
     flex: auto;
-    border: dotted;
     padding: 7px;
     margin: 10px 20%;
     justify-content: space-between;
 }
 
+.button-header{
+    color: white;
+    background-color: rgb(58, 59, 255);
+    border: none;
+    margin: 15px 15px;
+}
+
+.button-login{
+    background-color: white;
+    border-radius: 28px;
+    width: 70%;
+    height: 60%;
+    border: none;
+}
+
 .left-header{
-    width: 100px;
+    width: 130px;
+    background-color: rgb(58, 59, 255);
 }
 
 .center-header{
@@ -25,8 +41,6 @@ header{
     justify-content: center;
     text-align: center;
     border-top: none;
-    border-left: dotted;
-    border-right: dotted;
 }
 
 .right-header{
@@ -50,6 +64,26 @@ header{
     height: 300px;
     width: 650px;
     font-size: 25px;
+}
+
+.download-button{
+    background-color: white;
+    height: 40px;
+    border-radius: 28px;
+    width: 150px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border: none;
+    
+}
+
+.browser-button{
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    height: 40px;
+    width: 215px;
+    border: none;
 }
 
 .container-white{
