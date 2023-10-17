@@ -1,0 +1,168 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+.container-header {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    border: dotted;
+    padding: 7px;
+    margin: 10px 20%;
+    justify-content: space-between;
+}
+
+.left-header{
+    width: 100px;
+}
+
+.center-header{
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    border-top: none;
+    border-left: dotted;
+    border-right: dotted;
+}
+
+.right-header{
+    width: 100px;
+    text-align: end;
+}
+
+.container-blue{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-image: url(jumbo.png);
+    background-size: cover;
+
+}
+
+.block-pink{
+    text-align: center;
+    color: white;
+    margin: 85px;
+    height: 300px;
+    width: 650px;
+    font-size: 25px;
+}
+
+.container-white{
+    display: flex;
+    background-color: white;
+    height: 500px;
+    justify-content: center;
+}
+
+.block-blue{
+    height: 300px;
+    margin: 85px 0;
+    width: 450px;
+    background-color: blue;
+    border: dotted;
+}
+
+.block-red{
+    height: 300px;
+    margin: 85px 0;
+    width: 300px;
+    background-color: red;
+    border: dotted;
+}
+
+.container-grey{
+    display: flex;
+    background-color: grey;
+    height: 500px;
+    justify-content: center;
+}
+
+.block-orange{
+    height: 300px;
+    margin: 85px 0;
+    width: 300px;
+    background-color: orange;
+    border: dotted;
+}
+
+.block-aqua{
+    height: 300px;
+    margin: 85px 0;
+    width: 450px;
+    background-color: aqua;
+    border: dotted;
+}
+
+.container-grey-big{
+    display: flex;
+    background-color: grey;
+    height: 600px;
+    justify-content: center;
+}
+
+.green-block{
+    margin: 90px 0;
+    background-color: green;
+    width: 750px;
+    height: 400px;
+    border: dotted;
+}
+
+.container-black{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: black;
+}
+
+.large-block{
+    margin-top: 5px;
+    height: 350px;
+    width: 250px;
+    background-color: pink;
+    border: dotted;
+}
+
+.small-block{
+    width: 125px;
+    background-color: blueviolet;
+    height: 350px;
+    margin-top: 5px;
+    border: dotted;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 3px;
+}
+
+.container-footer{
+    background-color: green;
+    width: 775px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    width: 70px;
+    background-color: red;
+    height: 25px;
+    border: dotted;
+    margin-top: 12px;
+}
+
+.bottone{
+    width: 70px;
+    background-color: red;
+    height: 25px;
+    border: dotted;
+    margin-top: 12px;
+}
