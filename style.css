@@ -167,23 +167,39 @@ header{
     height: 400px;
     justify-content: center;
     background-color: black;
-    margin-top: 15%;
 }
 
 .large-block{
     margin-top: 5px;
     height: 350px;
     width: 250px;
-    background-color: pink;
-    border: dotted;
+
+}
+
+.footer-title{
+    color: blueviolet;
+
+}
+
+.bandiera-italia{
+    color: white;
 }
 
 .small-block{
     width: 125px;
-    background-color: blueviolet;
+    background-color: black;
     height: 350px;
-    margin-top: 5px;
-    border: dotted;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.title-small{
+    color: blueviolet;
+}
+
+.title-white-small{
+    color: white;
+    margin-top: 10px;
 }
 
 .footer{
@@ -195,7 +211,6 @@ header{
 }
 
 .container-footer{
-    background-color: green;
     width: 775px;
     justify-content: space-between;
     display: flex;
@@ -203,16 +218,16 @@ header{
 
 .logo{
     width: 70px;
-    background-color: red;
     height: 25px;
-    border: dotted;
     margin-top: 12px;
 }
 
 .bottone{
-    width: 70px;
-    background-color: red;
-    height: 25px;
-    border: dotted;
-    margin-top: 12px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 28px;
+    width: 110%;
+    height: 60%;
+    border: none;
 }
+
